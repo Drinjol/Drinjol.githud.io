@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista encargados</title>
+    <link rel="stylesheet" href="css/estiloHeader.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ 
+</head>
+
+<body>
+
+    <header>
+        <div class="links">
+            <a href="#" class="logo">
+            
+                    <img src="logo_una_blanco.png" class="logo-img">
+                    
+            </a>
+
+        </div>
+        <div>
+            <a href="login.html">Cerrar Sesión</a>
+        </div>
+
+    </header>
+
+    <nav>
+           
+        <ul class="menu-horizontal">
+            <li><a href="menuadministrador.html">Inicio</a></li>
+            <li><a href="">Academico</a>
+                <ul class="menu-vertical">
+                    <li><a href="AgregarAcademico.html">Registrar un academico </a></li>
+                    <li><a href="listaAcademicos.html">Lista Academicos</a></li>
+                </ul>
+            </li>
+            <li><a href="">Encargado</a>
+                <ul class="menu-vertical">
+                    <li><a href="agregarencargado.html">Agregar </a></li>
+                    <li><a href="listaencargados.html">Lista Encargados</a></li>
+                </ul>
+            </li>
+            <li><a href="">Reportes</a>
+                <ul class="menu-vertical">
+                    <li><a href="historialreportesAdmin.html">Historial Reportes</a></li>
+                </ul>
+            </li>
+            <li><a href="">Activos</a>
+                <ul class="menu-vertical">
+                    <li><a href="listaActivoAdmin.html">Lista Activos</a></li>
+                </ul>
+            </li>
+ 
+        </ul>
+    </nav>
+  
+  
+    <br>
+    <div class ="table-responsive mx-auto" style="width: 1000px;">
+        <table class="table table-responsive table-bordered table-striped table-hover">
+            <input type="text" placeholder="Buscar...">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Telefono</th>
+                    <th>Cedula</th>
+                    <th>Area</th>
+                    <th>Accion</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>Gonzales Mendez</td>
+                    <td>888888</td>
+                    <td>4545422</td>
+                    <td>Fincas</td>
+                    <td><a href="">Eliminar</a>
+                    <a href="">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td>Brayan</td>
+                    <td>Ortiz Mendez</td>
+                    <td>65434523</td>
+                    <td>4545422</td>
+                    <td>Informatica</td>
+                    <td><a href="">Eliminar</a>
+                    <a href="">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td>Jordan</td>
+                    <td>Mora</td>
+                    <td>32344432</td>
+                    <td>4545422</td>
+                    <td>Fincas</td>
+                    <td><a href="">Eliminar</a>
+                    <a href="">Actualizar</a></td>
+                </tr>
+                <tr>
+                    <td>Ian</td>
+                    <td>Sanchez Centeno</td>
+                    <td>32344432</td>
+                    <td>4545422</td>
+                    <td>Mantenimiento</td>
+                    <td><a href="">Eliminar</a>
+                    <a href="">Actualizar</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <footer class="footer-login">
+        Copyright © 2022 Campus Sarapiquí. Todos los derechos reservados.Universidad Nacional.
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    
+</body>
+
+</html>
